@@ -1,0 +1,203 @@
+  @font-face{
+        font-family: shabnam;
+        src: url(./Shabnam.ttf);
+    }
+
+body
+{
+    margin:0;
+    
+}
+.navbar
+{
+width:100%;
+height:80px;
+background-color: white;
+direction: rtl;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul
+{
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+width:500px;
+font-family: shabnam;
+margin: 0;
+padding: 0;
+}
+.logo
+{
+height:auto;
+width:200px;
+}
+.hamburgarMenu
+{
+    width:70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburgaricon
+{
+    float: left;
+
+}
+.container
+{
+width:100%;
+height:calc(100vh - 80px);
+background-color: gray;
+display: flex;
+justify-content: center;
+}
+.leftSide
+{
+width:50%;
+background-color: #484848;
+height:100%;
+border-right: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.rightSide
+{
+    width:50%;
+    background-color: #cbc9c9;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.rightSide-form
+{
+    width: 80%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-around;
+}
+table
+{
+    width: 100%;
+    height:200px;
+    direction: rtl;
+    border-collapse: collapse;
+}
+tr
+{
+    height: 20px;
+}
+tr td:first-child
+{
+    width:40%;
+}
+td,th
+{
+    width:20%;
+    background-color: white;
+    border:1px solid black;
+    font-family: shabnam;
+    
+    
+}
+.leftSideimg
+{
+ width:600px;
+ height:400px;
+}
+
+.top-colors
+{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    height:38px;
+}
+.orange
+{
+    width:35px;
+    height:35px;
+    border:1px solid white;
+    background-color:#f25022;
+    transition: 0.3s opacity;
+}
+
+.green
+{
+    width:35px;
+    height:35px;
+    border:1px solid white;
+    background-color: #7fba00;
+    transition: 0.3s opacity;
+}
+.blue
+{
+    width:35px;
+    height:35px;
+    border:1px solid white;
+    background-color: #00a4ef;
+    transition: 0.3s opacity;
+}
+.yellow
+{
+    width:35px;
+    height:35px;
+    border:1px solid white;
+    background-color: #ffb900;
+    transition: 0.3s opacity;
+}
+.top-colors div:hover
+{
+opacity: 0.6;
+}
+
+.email-input,.password-input
+{
+    width: 80%;
+    height: 50px;
+
+}
+.submit-button
+{
+ 
+    width: 200px;
+    height: 50px;
+    border: none;
+    
+    font-family: shabnam;
+    font-size: 18pt;
+    background-color: coral;
+}
+.checkbox
+{
+width: 20px;
+height:20px
+}
+.checkboxdiv
+{
+    width:100%;height:auto;margin:5px auto 0;
+    display: flex;
+    justify-content: center;
+}
+.email-input,.password-input
+{
+    direction: rtl;
+    font-family: shabnam;
+    font-size: 18pt;
+    outline: transparent;
+    border: 2px solid #484848;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
