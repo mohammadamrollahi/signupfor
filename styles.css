@@ -174,10 +174,14 @@ opacity: 0.6;
     width: 200px;
     height: 50px;
     border: none;
-    
     font-family: shabnam;
     font-size: 18pt;
     background-color: coral;
+    transition: 0.3s opacity;
+}
+.submit-button
+{
+   opacity: 0.8; 
 }
 .checkbox
 {
