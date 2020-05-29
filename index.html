@@ -30,30 +30,8 @@
         </nav>
 
         <div class="container">
-            <div class="leftSide">
-                <img class="leftSideimg"src="surfaceimg.png" alt="myimg">
-
-                    <div class="top-colors">
-                        <div class="orange">
-
-                        </div>
-                        <div class="green">
-
-                        </div>
-                    
-
-
-                        <div class="blue">
-
-                        </div>
-                        <div class="yellow">
-
-                        </div>
-                    </div>
-
-            </div>
             <div class="rightSide">
-                <form class="rightSide-form"action="">
+                <form class="rightSide-form" id="form"action="">
                     <table>
                         <tr>
                             <th>نام کاربری</th>
@@ -86,13 +64,47 @@
                             <td><div class="checkboxdiv"><input class="checkbox" type="checkbox"><input  class="checkbox"type="checkbox"></div></td>
                         </tr>
                     </table>
-                    <input type="text" placeholder="ایمیل" class="email-input">
-                    <input type="text"placeholder="رمز عبور" class="password-input">
-                    <button class="submit-button">ارسال</button>
+                    <input type="text" placeholder="نام کاربری" class="email-input" id="username">
+                    <small class="small"></small>
+                    <input type="email"placeholder="ایمیل" class="password-input" id="email">
+                    <small class="small"></small>
+                    <input type="text"placeholder="کشور" class="password-input" id="country">   
+                    <small class="small"></small>
+                    <input type="password"placeholder="رمز عبور" class="password-input" id="password">
+                    <small class="small"></small>
+                    <input type="password"placeholder="رمز عبور تکرار" class="password-input" id="password2">
+                    <small class="small"></small>
+                    <input type="button"class="submit-button" value="ارسال">
                 </form>
+                <!-- <p class="lurem">lurem ipsum</p>
+                <button class="mybtn">less</button> -->
+            </div>
+            <div class="leftSide">
+                <img class="leftSideimg"src="surfaceimg.png" alt="myimg">
+
+                    <div class="top-colors">
+                        <div class="orange">
+
+                        </div>
+                        <div class="green">
+
+                        </div>
+                        <div class="blue">
+
+                        </div>
+                        <div class="yellow">
+
+                        </div>
+                    </div>
 
             </div>
+
+                
+                
+
+            
         </div>
-        <script src="" async defer></script>
+        <script src="./event/jquery-3.5.1.js"></script>
+        <script src="./event/event.js"></script>
     </body>
 </html>

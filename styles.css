@@ -17,6 +17,7 @@ direction: rtl;
 display: flex;
 justify-content: space-between;
 align-items: center;
+z-index: 1;
 }
 ul
 {
@@ -51,19 +52,19 @@ width:200px;
 width:100%;
 height:calc(100vh - 80px);
 background-color: gray;
-display: flex;
-justify-content: center;
+
 }
 .leftSide
 {
 width:50%;
 background-color: #484848;
 height:100%;
-border-right: 1px solid black;
+transition: background 2s;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+float:right;
 }
 .rightSide
 {
@@ -74,13 +75,33 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    float:right;
 }
+@media screen and (max-width:800px)
+{
+    .container
+    {
+        display: relative;
+    }
+ .rightSide
+ {
+     width:100%;
+    
+ }
+ .leftSide
+ {
+     width:100%;
+ }
+ .navbar
+ {
+     position: fixed;;
+ }
+}
+
 .rightSide-form
 {
     width: 80%;
-    height: 450px;
-
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -107,9 +128,7 @@ td,th
     width:20%;
     background-color: white;
     border:1px solid black;
-    font-family: shabnam;
-    
-    
+    font-family: shabnam;   
 }
 .leftSideimg
 {
@@ -178,6 +197,8 @@ opacity: 0.6;
     font-size: 18pt;
     background-color: coral;
     transition: 0.3s opacity;
+    position: relative;
+    z-index: 0;
 }
 .submit-button
 {
@@ -204,4 +225,8 @@ height:20px
     background-color: transparent;
     border-radius: 10px;
 
+}
+.small
+{
+    color:red;
 }
