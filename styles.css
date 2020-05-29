@@ -8,6 +8,7 @@ body
     margin:0;
     
 }
+
 .navbar
 {
 width:100%;
@@ -33,7 +34,7 @@ padding: 0;
 {
 height:auto;
 width:200px;
-}
+} 
 .hamburgarMenu
 {
     width:70px;
@@ -226,7 +227,10 @@ height:20px
     border-radius: 10px;
 
 }
+<<<<<<< HEAD
 .small
 {
     color:red;
 }
+=======
+>>>>>>> 64838dd060be2f0ea5a7c26445a584bb16ea6cf9
